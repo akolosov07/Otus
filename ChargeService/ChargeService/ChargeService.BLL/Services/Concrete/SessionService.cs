@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ChargeService.BLL.Dtos;
+using ChargeService.BLL.Enums;
 using ChargeService.BLL.Services.Interfaces;
 using ChargeService.DAL.Entities;
 using ChargeService.DAL.Repositories.Interfaces;
@@ -38,7 +39,7 @@ namespace ChargeService.BLL.Services.Concrete
 
             var session = _mapper.Map<Session>(request);
             var filling = session.Filling;
-            session.Status = 0; // 0 - Зарядка еще не началась
+            session.Status = (int)StatusEnum.NotStarted; // 0 - Зарядка еще не началась
             session.Created = DateTime.Now.ToUniversalTime();
             session.Id = sessionId;
             session.FillingId = fillingId;

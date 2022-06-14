@@ -1,4 +1,4 @@
-﻿namespace ChargeService.BLL.Dtos
+﻿namespace ChargeService.BLL.Enums
 {
     /// <summary>
     /// Статус зарядки

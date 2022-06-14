@@ -26,17 +26,13 @@ namespace ChargeService.API.Middlewares
             }
             catch (Exception ex)
             {
-                await HandleExceptionAsynce(context, ex, _env);
+                await HandleExceptionAsync(context, ex, _env);
             }
         }
 
-        private async Task HandleExceptionAsynce(HttpContext context, Exception exception, IWebHostEnvironment env)
+        private async Task HandleExceptionAsync(HttpContext context, Exception exception, IWebHostEnvironment env)
         {
-            var code = HttpStatusCode.InternalServerError;
-            var errors = new ApiErrorResponse()
-            {
-                StatusCode = (int)code
-            };
+            var errors = new ApiErrorResponse();
 
             if (_env.IsDevelopment())
             {
