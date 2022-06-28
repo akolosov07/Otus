@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopusteam.Otus.Reflection.ConsoleApp", "Dopusteam.Otus.Reflection.ConsoleApp\Dopusteam.Otus.Reflection.ConsoleApp.csproj", "{E55B60F7-3489-471B-A069-C52B1E346C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopusteam.Otus.Reflection.Library", "Dopusteam.Otus.Reflection.Library\Dopusteam.Otus.Reflection.Library.csproj", "{3CD06C3F-4F09-4AD6-A81C-EDB40FE9EDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopusteam.Otus.Reflection.Comparer", "Dopusteam.Otus.Reflection.Comparer\Dopusteam.Otus.Reflection.Comparer.csproj", "{F1B9EBFC-0678-4DB3-B660-A8BD39108D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopusteam.Otus.Reflection.Converter", "Dopusteam.Otus.Reflection.Converter\Dopusteam.Otus.Reflection.Converter.csproj", "{8DC4239C-031F-4CF8-B193-F1B1AE1DC3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopusteam.Otus.Reflection.Dynamic", "Dopusteam.Otus.Reflection.Dynamic\Dopusteam.Otus.Reflection.Dynamic.csproj", "{BC112A61-7BA4-4F84-8AE4-EF8CB8D18579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55B60F7-3489-471B-A069-C52B1E346C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55B60F7-3489-471B-A069-C52B1E346C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55B60F7-3489-471B-A069-C52B1E346C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55B60F7-3489-471B-A069-C52B1E346C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD06C3F-4F09-4AD6-A81C-EDB40FE9EDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD06C3F-4F09-4AD6-A81C-EDB40FE9EDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD06C3F-4F09-4AD6-A81C-EDB40FE9EDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD06C3F-4F09-4AD6-A81C-EDB40FE9EDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B9EBFC-0678-4DB3-B660-A8BD39108D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B9EBFC-0678-4DB3-B660-A8BD39108D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B9EBFC-0678-4DB3-B660-A8BD39108D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B9EBFC-0678-4DB3-B660-A8BD39108D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC4239C-031F-4CF8-B193-F1B1AE1DC3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC4239C-031F-4CF8-B193-F1B1AE1DC3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC4239C-031F-4CF8-B193-F1B1AE1DC3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC4239C-031F-4CF8-B193-F1B1AE1DC3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC112A61-7BA4-4F84-8AE4-EF8CB8D18579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC112A61-7BA4-4F84-8AE4-EF8CB8D18579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC112A61-7BA4-4F84-8AE4-EF8CB8D18579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC112A61-7BA4-4F84-8AE4-EF8CB8D18579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

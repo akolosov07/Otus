@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Dopusteam.Otus.Reflection.Comparer\Dopusteam.Otus.Reflection.Comparer.csproj" />
+      <ProjectReference Include="..\Dopusteam.Otus.Reflection.Converter\Dopusteam.Otus.Reflection.Converter.csproj" />
+      <ProjectReference Include="..\Dopusteam.Otus.Reflection.Library\Dopusteam.Otus.Reflection.Library.csproj" />
+    </ItemGroup>
+
+</Project>
